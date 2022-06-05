@@ -1,0 +1,42 @@
+.seo-results__container{
+    display: flex;
+}
+.seo-results__img{
+    margin-right: 55px;
+}
+.seo-results__addtitle{
+        margin-bottom: 20px;
+
+        font-size: 20px;
+        line-height: 1.5;
+        color: $accent-color;
+}
+.seo-results__title{
+    margin-bottom: 25px;
+
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 1.33;
+    color: $secondary-text-color;
+}
+.seo-results__text{
+    margin-bottom: 25px;
+}
+.seo-results__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.seo-results__item{
+        font-size: 16px;
+        line-height: 1.75;
+        color: $secondary-text-color;
+}
+.seo-results__item::before{
+    content: '';
+    display: inline-flex;
+    width: 12px;
+    height: 12px;
+    margin-right: 20px;
+
+    background-image: url('../../image/check-mark.svg');
+ }

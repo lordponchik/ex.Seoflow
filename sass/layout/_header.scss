@@ -1,0 +1,115 @@
+.header{    
+    background: $primary-bg-color;
+}
+.header__connection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+        padding-bottom: 20px;
+}
+.communication{
+    display: flex;
+        align-items: center;
+}
+.communication__wrapper{
+    display: inline-flex;
+    padding: 8px;
+    margin-right: 12px;
+
+    background-color: $accent-color;
+
+    .communication__link:hover &,
+    .communication__link:focus &{
+        background-color: $white-color;
+    }
+}
+.communication__icon {
+    fill: $white-color;
+
+    .communication__link:hover &,
+        .communication__link:focus & {
+            fill: $accent-color;
+        }
+}
+.communication__item:not(:last-child) {
+    margin-right: 15px;
+}
+.communication__link{
+    font-size: 16px;
+    line-height: 1.75;
+    color: $white-color;
+
+    &:hover,
+    &:focus {
+            color: $accent-color;
+        }
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 15px;
+
+    background: $white-color;
+        border-radius: 10px;
+}
+.logo{
+    display: flex;
+
+    &:hover,
+    &:focus{
+        fill: $accent-color;
+    }
+}
+.site-nav{
+display: flex;
+align-items: center;
+}
+.site-nav__item:not(:last-child){
+    margin-right: 10px;
+}
+.site-nav__link{
+    display: inline-flex;
+    padding: 5px;
+
+        font-size: 16px;
+        line-height: 1.5;    
+        color: $site-nav-color;
+
+        &:hover,
+        &:focus{
+            color: $accent-color;
+        }
+}
+
+.social{
+    display: flex;
+}
+.social__item:not(:last-child){
+    margin-right: 15px;
+}
+.social__link{
+    fill: $black-color;
+
+    &:hover,
+        &:focus {
+            fill: $white-color;
+        }
+}
+.btn{
+    padding: 11px 26px;
+    background: none;
+    border: none;
+    border-radius: 32px;
+    cursor: pointer;
+        font-size: 13px;
+        line-height: 1.46;    
+        color: $white-color;
+    background-color: $accent-color;
+
+    &:hover,
+        &:focus {
+            background-color: $primary-text-color;
+        }
+}

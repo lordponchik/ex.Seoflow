@@ -1,0 +1,21 @@
+.strategy{
+    width: 80%;
+    padding: 100px 80px;
+    display: flex;
+    margin-top: -300px;
+    margin-left: auto;
+    margin-right: auto;
+
+    box-shadow: 9px 9px 35px rgba(56, 11, 113, 0.1);
+    border-radius: 10px;
+    background-color: $white-color;
+}
+.strategy__content{
+    width: 50%;
+}
+.strategy__list{
+    width: 50%;
+}
+.strategy__item{
+    display: flex;
+}
