@@ -13,9 +13,51 @@
 .strategy__content{
     width: 50%;
 }
+.strategy__addtitle{
+        margin-bottom: 20px;
+
+        font-size: 19px;
+        line-height: 1.58;
+        color: $accent-color;
+}
+.strategy__title{
+    margin-bottom: 25px;
+
+        font-weight: 400;
+        font-size: 42px;
+        line-height: 1.33;    
+        color: $secondary-text-color;
+}
 .strategy__list{
     width: 50%;
 }
 .strategy__item{
     display: flex;
+
+    &:not(:last-child){
+        margin-bottom: 65px;
+    }
+}
+.strategy__bg{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            padding: 24px;
+            margin-right: 20px;
+
+            background-color:$primary-bg-color;
+            fill: $additional-bg-color;
+}
+.strategy__paragraph{
+    margin-bottom: 10px;
+
+    font-weight: 400;
+        font-size: 19px;
+        line-height: 1.58;
+        color: $secondary-text-color;
+}
+.strategy__description{
+        font-size: 15px;
+        line-height: 1.87;
 }

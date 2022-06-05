@@ -1,0 +1,55 @@
+.reasons-сhoosing__container{
+    display: flex;
+}
+.reasons-сhoosing__addtitle{
+        margin-bottom: 20px;
+
+        font-size: 20px;
+        line-height: 1.5;
+        color: $accent-color;
+}
+.reasons-сhoosing__title{
+    margin-bottom: 25px;
+
+    font-weight: 400;
+        font-size: 42px;
+        line-height: 1.33;
+        color: $secondary-text-color;
+}
+.reasons-сhoosing__text{
+    margin-bottom: 25px;
+}
+.reasons-сhoosing__list{
+    display: flex;
+    justify-content: space-between;
+}
+.reasons-сhoosing__item{
+    display: flex;
+    padding: 25px;
+    border-radius: 10px;
+    width: 48%;
+
+    background-color: $reasons-сhoosing-bg-color;
+}
+.reasons-сhoosing__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+    margin-right: 20px;
+
+    background-color: $primary-text-color;
+}
+.reasons-сhoosing__icon{   
+    fill: $white-color;
+}
+.reasons-сhoosing__percent{
+    font-size: 28px;
+        line-height: 1.29;
+        color: $secondary-text-color;
+}
+.reasons-сhoosing__domain{
+        font-size: 15px;
+        line-height: 1.87;
+        color: $secondary-text-color;
+}
