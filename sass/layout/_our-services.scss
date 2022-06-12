@@ -1,0 +1,115 @@
+.our-services_title{
+    margin-bottom: 30px;
+
+        font-weight: 400;
+        font-size: 42px;
+        line-height: 1.33;
+        text-align: center;    
+        color: $secondary-text-color;
+}
+.service{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -35px;
+    margin-left: -35px;
+    margin-bottom: 90px;
+}
+.service__item{
+    width: calc((100% / 6) - 35px);
+    margin-top: 35px;
+        margin-left: 35px;
+}
+.service__btn{
+    position: relative;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    border: none; 
+    
+    background-color: $white-color;
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+
+    &::after{
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: -15px;
+        transform: translateX(-50%);
+
+        width: 25px;        
+        height: 25px;
+
+        background-color: $accent-color;
+    }    
+    &:hover,
+    &:focus{
+        background-color: $accent-color;
+        &>.service__name {
+                color: $white-color;
+            }
+            &::after{
+                background-color: $white-color;
+                box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.05);
+            }
+    }
+}
+.service__btn--active{
+    background-color: $accent-color;
+
+    &>.service__name{
+        color: $white-color;
+    }
+}
+.service__icon {
+    width: 25px;
+    height: 25px;
+    margin-bottom: 15px;
+}
+.service__name{
+        font-size: 16px;
+        line-height: 1;
+        color: $secondary-text-color;
+}
+.serv-description{
+    display: flex;
+    align-items: center;
+}
+.serv-description__title{
+        margin-bottom: 15px;
+
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 1.59;
+        color: $secondary-text-color;
+}
+.serv-description__text{
+    margin-bottom: 20px;
+}
+.serv-description__list{    
+    margin-bottom: 40px;
+}
+.serv-description__item{   
+    display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 10px;
+
+        font-size: 16px;
+        line-height: 1.75;
+        color: $secondary-text-color;
+
+        &:not(:last-child){
+            margin-bottom: 13px;
+        }
+        &::before{
+            content: '';
+            display: block;
+            width: 16px;
+            height: 16px;
+            margin-right: 15px;
+
+            background-image: url('../image/check-mark-1.svg');
+            background-repeat: no-repeat;
+        }
+}

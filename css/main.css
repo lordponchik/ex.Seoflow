@@ -532,4 +532,137 @@ body {
   font-size: 19px;
   line-height: 1.58;
   color: #2C1258;
+}
+
+.our-services_title {
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 1.33;
+  text-align: center;
+  color: #2C1258;
+}
+
+.service {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: -35px;
+  margin-left: -35px;
+  margin-bottom: 90px;
+}
+
+.service__item {
+  width: calc(16.6666666667% - 35px);
+  margin-top: 35px;
+  margin-left: 35px;
+}
+
+.service__btn {
+  position: relative;
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  border: none;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}
+.service__btn::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -15px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 25px;
+  height: 25px;
+  background-color: #F4AB00;
+}
+.service__btn:hover, .service__btn:focus {
+  background-color: #F4AB00;
+}
+.service__btn:hover > .service__name, .service__btn:focus > .service__name {
+  color: #ffffff;
+}
+.service__btn:hover::after, .service__btn:focus::after {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.05);
+}
+
+.service__btn--active {
+  background-color: #F4AB00;
+}
+.service__btn--active > .service__name {
+  color: #ffffff;
+}
+
+.service__icon {
+  width: 25px;
+  height: 25px;
+  margin-bottom: 15px;
+}
+
+.service__name {
+  font-size: 16px;
+  line-height: 1;
+  color: #2C1258;
+}
+
+.serv-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.serv-description__title {
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 1.59;
+  color: #2C1258;
+}
+
+.serv-description__text {
+  margin-bottom: 20px;
+}
+
+.serv-description__list {
+  margin-bottom: 40px;
+}
+
+.serv-description__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 10px;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #2C1258;
+}
+.serv-description__item:not(:last-child) {
+  margin-bottom: 13px;
+}
+.serv-description__item::before {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+  margin-right: 15px;
+  background-image: url("../image/check-mark-1.svg");
+  background-repeat: no-repeat;
 }/*# sourceMappingURL=main.css.map */
