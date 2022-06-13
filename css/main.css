@@ -665,4 +665,92 @@ body {
   margin-right: 15px;
   background-image: url("../image/check-mark-1.svg");
   background-repeat: no-repeat;
+}
+
+.seo-process {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  position: relative;
+  background-color: #421B81;
+}
+.seo-process::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 115px;
+  background-image: url("../image/background-up-secondary.svg");
+}
+.seo-process::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 115px;
+  background-image: url("../image/background-down-secondary.svg");
+}
+
+.seo-process__title {
+  margin-bottom: 45px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 1.33;
+  text-align: center;
+  color: #ffffff;
+}
+.seo-process__title--selection {
+  color: #F4AB00;
+}
+
+.seo-process__text {
+  margin-bottom: 85px;
+  font-size: 18px;
+  line-height: 0.5;
+  text-align: center;
+  color: #ffffff;
+}
+
+.seo-process__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.seo-process__item {
+  position: relative;
+  text-align: center;
+}
+.seo-process__item:not(:last-child) {
+  margin-right: 120px;
+}
+.seo-process__item:not(:last-child)::before {
+  content: "";
+  position: absolute;
+  top: 15%;
+  right: -70%;
+  width: 100%;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.seo-process__icon {
+  width: 55px;
+  height: 55px;
+}
+
+.seo-process__paragraph {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+.seo-process__description {
+  font-size: 16px;
+  line-height: 1.75;
+  color: #ffffff;
 }/*# sourceMappingURL=main.css.map */
