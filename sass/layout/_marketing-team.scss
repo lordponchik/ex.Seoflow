@@ -1,0 +1,38 @@
+.marketing-team__title{
+        margin-bottom: 10px;
+
+        font-weight: 400;
+        font-size: 42px;
+        line-height: 1.33;
+        text-align: center;
+        color: $secondary-text-color;
+}
+.marketing-team__text{
+        margin-bottom: 60px;
+
+        text-align: center;
+}
+.marketing-team__list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -60px;
+}
+.marketing-team__item{
+    display: flex;
+    width: calc(100% / 3);
+    margin-top: 60px;
+    align-items: center;
+}
+.marketing-team__image{
+    margin-right: 25px;
+}
+.marketing-team__name{
+    font-size: 19px;
+    line-height: 1.58;
+    color: $secondary-text-color;
+}
+.marketing-team__position{
+font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+}
