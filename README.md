@@ -18,7 +18,7 @@ Design - [Figma layout](https://www.figma.com/file/fHqJtCApL4xcUV8M8yEWGq/SEOFlo
 This project is a practical work on the layout of HTML pages using CSS and JavaScript. The goal of the project is to improve the skills of adaptive layout, styling with CSS, and interaction with the DOM via JavaScript. Only the home page has been created.
 
 ## Technology stack
-- HTML
+- HTML5
 - CSS3
 - SASS
 
@@ -43,7 +43,7 @@ This project is a practical work on the layout of HTML pages using CSS and JavaS
 Цей проект є практичною роботою макету HTML-сторінок з використанням CSS і JavaScript. Мета проекту – покращити навички адаптивної верстки, стилізації за допомогою CSS та взаємодії з DOM через JavaScript. Створено лише домашню сторінку.
 
 ## Стек технологій
-- HTML
+- HTML5
 - CSS3
 - SASS
 
@@ -68,7 +68,7 @@ This project is a practical work on the layout of HTML pages using CSS and JavaS
 Этот проект представляет собой практическую работу по макету HTML-страниц с использованием CSS и JavaScript. Цель проекта - улучшить навыки адаптивной верстки, стилизации с помощью CSS и взаимодействия с DOM через JavaScript. Создана только домашняя страница.
 
 ## Стек технологий
-- HTML
+- HTML5
 - CSS3
 - SASS
 
